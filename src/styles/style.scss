@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 13, 87);
+}
+
+div.Home {
+  padding-left: 2rem;
+  p {
+    color: white;
+  }
+
+  div.card-body {
+    background-color: rgb(255, 255, 255);
+    width: 98vw;
+    h1 {
+      margin: 2rem 2rem 2rem 0.5rem;
+    }
+    p {
+      margin: 0rem 1rem 1rem 0.5rem;
+      color: black;
+    }
+    a {
+      margin: 0rem 1rem 1rem 0.5rem;
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+div.article {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  div {
+    h1 {
+      margin-bottom: 2rem;
+    }
+  }
+}

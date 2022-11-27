@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(97, 195, 202);
+}
+
+div.Home {
+  padding-left: 2rem;
+}
+div.Home p {
+  color: white;
+}
+div.Home div.card-body {
+  background-color: rgb(97, 195, 202);
+  width: 98vw;
+}
+div.Home div.card-body h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 2em;
+  margin: 2rem 2rem 2rem 0.5rem;
+}
+div.Home div.card-body p {
+  margin: 0rem 1rem 1rem 0.5rem;
+  color: black;
+}
+div.Home div.card-body a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5em;
+  margin: 0rem 1rem 1rem 0.5rem;
+  color: black;
+  font-size: 1rem;
+}
+
+div.article {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+div.article div h1 {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=style.css.map */
+
+.square {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 95%;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 1em;
+  line-height: 1.2em;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+}
+
+.mid{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.content{
+  margin-left: 10px;
+}
+
+.back_square {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  background-color: rgb(255, 255, 255); 
+  line-height: 3em;
+}
+
+.back_content{
+  margin-left: 30px;
+}
+
+.back_backbutton{
+  margin-left: 30px;
+}
